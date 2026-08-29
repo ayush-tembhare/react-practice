@@ -1,10 +1,29 @@
-
+import {Bookmark} from 'lucide-react';
+import Amazon from "../assets/company logos/Amazon.jpg";
 const Card = (props) => {
-     console.log(props.age);
     return(
         <div className="Card">
-            <h1>My name is {props.user}, and age is {props.age} from {props.city}</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio suscipit qui fugiat dicta modi recusandae non pariatur aspernatur, unde sed commodi. Asperiores et libero sit voluptate quidem numquam quos id?</p>
+            <div className="Top">
+                <img src={props.brandLogo} alt='Logo' />
+                <button>Save<Bookmark /></button> 
+            </div>
+            <div className="Job_info">
+                <h3>{props.companyName}</h3>
+                <p>{props.datePosted}</p>
+                 <h2>{props.post}</h2>
+                <div className='tag1'>
+                    <p>{props.tag1}</p>
+                    <p>{props.tag2}</p>
+                </div>
+                
+            </div>
+            <div className="Bottom">
+                <div className='tag2'>
+                    <h2>{props.pay}</h2>
+                    <p>{props.location}</p>
+                </div>
+                <button>Apply Now</button>
+            </div>
         </div>
     )
 
