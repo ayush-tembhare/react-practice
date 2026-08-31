@@ -1,10 +1,9 @@
-import React from 'react'
+import Page1 from './Components/Page1'
 
 const App = () => {
   return (
-    <div className='text-red-500'>
-      App
-      <h1 className="text-red-900">Hello</h1>
+    <div>
+     <Page1/>
     </div>
   )
 }
