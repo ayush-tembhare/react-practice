@@ -1,7 +1,7 @@
 import Card from "./Card"
 const RightSection = () => {
   return (
-    <div>
+    <div  className='ml-120 flex w-[70%]'>
         Right Section
         <Card/>
     </div>

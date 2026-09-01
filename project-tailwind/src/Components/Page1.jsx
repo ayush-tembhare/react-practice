@@ -1,13 +1,11 @@
-import LeftSection from './LeftSection'
+import MainContent from './MainContent'
 import Navbar from './Navbar'
-import RightSection from './RightSection'
 
 const Page1 = () => {
   return (
     <div className='ml-6'>
     <Navbar/>
-    <LeftSection/>
-    <RightSection/>
+   <MainContent/>
     </div>
   )
 }
