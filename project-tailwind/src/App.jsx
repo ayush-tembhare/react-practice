@@ -9,19 +9,19 @@ const App = () => {
       status: "Satisfied"
     },
     {
-      image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
+      image: "https://images.unsplash.com/photo-1687976474460-fb49c6b2f54c?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       description:
         "Customers are interested in the product but still exploring their options.",
       status: "Interested"
     },
     {
-      image: "https://images.unsplash.com/photo-1556761175-b413da4baf72",
+      image: "https://plus.unsplash.com/premium_photo-1661602218148-961ffdeddd5c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHdvcmtpbmclMjBwcm9mZXNzb2lufGVufDB8fDB8fHww",
       description:
         "Customers are showing strong interest and may be ready to take the next step.",
       status: "Highly Interested"
     },
     {
-      image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902",
+      image: "https://images.unsplash.com/photo-1546979859-b7d45d499dd6?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       description:
         "Customers are carefully comparing features, pricing, and available alternatives.",
       status: "Comparing"
@@ -33,7 +33,7 @@ const App = () => {
       status: "Needs Support"
     },
     {
-      image: "https://images.unsplash.com/photo-1524758631624-e2822e304c36",
+      image: "https://images.unsplash.com/photo-1627826436180-178c3b10767c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdvcmtpbmclMjBwcm9mZXNzb2lufGVufDB8fDB8fHww",
       description:
         "Customers are currently not interested and are unlikely to convert at this stage.",
       status: "Not Interested"
