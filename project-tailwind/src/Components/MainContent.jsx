@@ -7,7 +7,7 @@ const MainContent = () => {
         <div className='w-[30%]'>
             <LeftSection/>
         </div>
-        <div className=''>
+        <div className='min-w-0'>
              <RightSection/>
         </div>
        

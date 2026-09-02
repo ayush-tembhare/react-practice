@@ -9,11 +9,8 @@ const LeftSection = () => {
           Prospective customer segmentation
         </h1>
 
-        <p className="mt-8 w-[80%]">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-          commodi ea ut libero, ab amet officiis quidem facere reprehenderit
-          excepturi tenetur? Iure soluta suscipit aliquid sed labore quisquam
-          maxime ipsam.
+        <p className="mt-8 w-[90%] text-gray-500 text-xl font-extrabold">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eligendi dolor laudantium! Cumque laborum, voluptas repellat dicta pariatur magni explicabo delectus, quis quibusdam accusantium voluptatem?
         </p>
       </div>
 

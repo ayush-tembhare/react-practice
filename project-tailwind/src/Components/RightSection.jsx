@@ -1,9 +1,12 @@
 import Card from "./Card"
 const RightSection = () => {
   return (
-    <div>
-        <h1 className="text-4xl">this is by my code</h1>
+    <div className="flex gap-8 ml-15 overflow-x-scroll  scrollbar-none [&::-webkit-scrollbar]:hidden">
         <Card/>
+        <Card/>
+        <Card/>
+         <Card/> <Card/> <Card/> <Card/> <Card/> <Card/>
+        
     </div>
   )
 }
