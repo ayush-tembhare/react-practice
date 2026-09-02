@@ -7,7 +7,7 @@ const MainContent = () => {
         <div className='w-[30%]'>
             <LeftSection/>
         </div>
-        <div className='w-[70%]'>
+        <div className=''>
              <RightSection/>
         </div>
        
