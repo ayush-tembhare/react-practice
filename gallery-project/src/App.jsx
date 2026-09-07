@@ -20,7 +20,6 @@ const App = () => {
 
     const copyData = response.data
     setdataarr(copyData)
-    console.log(dataarr[0].url);
     
     setloading(false)
   }
