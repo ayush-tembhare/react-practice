@@ -7,6 +7,7 @@ import Profile from './Components/Profile'
 import Orders from './Components/Orders'
 import Setting from './Components/Setting'
 import NotFound from './NotFound'
+import Footer from './Footer'
 
 const App = () => {
  
@@ -23,7 +24,7 @@ const App = () => {
               <Route path='/contact' element={<Contact/>} />
                 <Route path='*' element={<NotFound />} />
       </Routes>
-
+<Footer></Footer>
     </div>
 
   )

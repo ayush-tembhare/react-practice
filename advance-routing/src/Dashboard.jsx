@@ -1,9 +1,10 @@
-import React from 'react'
-import { Outlet,Link, useNavigate } from 'react-router-dom'
+import { Outlet,Link, useNavigate, useLocation } from 'react-router-dom'
 
 
 const Dashboard = () => {
   const navigate = useNavigate()
+  const location = useLocation()
+  console.log(location.pathname)
   
   return (
     <div>
