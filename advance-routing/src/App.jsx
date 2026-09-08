@@ -1,4 +1,4 @@
-import { Route,Routes } from 'react-router-dom'
+import { Route,Routes} from 'react-router-dom'
 import Home from './Components/Home'
 import Navbar from './Navbar'
 import Dashboard from './Dashboard'
@@ -9,6 +9,7 @@ import Setting from './Components/Setting'
 import NotFound from './NotFound'
 
 const App = () => {
+ 
   return (
     <div className='h-screen bg-black'>
         <Navbar/>
@@ -17,7 +18,7 @@ const App = () => {
         <Route  path='/dashboard' element={<Dashboard/>} > 
              <Route path='profile' element={<Profile/>}/>
               <Route path='setting' element={<Setting/>}/>
-              <Route path='orders' element={<Orders/>}/>   
+              <Route path='orders/:id' element={<Orders/>}/>   
        </Route>
               <Route path='/contact' element={<Contact/>} />
                 <Route path='*' element={<NotFound />} />
