@@ -1,7 +1,14 @@
 import { createContext } from 'react';
 
-export const ThemeContext = createContext('light'); 
+export const ThemeDataContext = createContext('light');
 
-<ThemeContext.Provider value='{ThemeContext}'>
-    <App></App>
-</ThemeContext.Provider>
+const ThemeContext = (props) => {
+   return (
+      <ThemeDataContext.Provider value="dark">
+         {props.children}
+      </ThemeDataContext.Provider>
+   )
+}
+
+export default ThemeContext;
+
